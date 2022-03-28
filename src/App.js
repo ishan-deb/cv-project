@@ -1,4 +1,5 @@
 import './App.css';
+import EduInfoForm from './components/EduInfoForm';
 import GenInfoForm from './components/GenInfoForm';
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       </header>
 
       <GenInfoForm />
+      <EduInfoForm />
+
     </div>
   );
 }
