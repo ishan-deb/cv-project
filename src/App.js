@@ -1,6 +1,7 @@
 import './App.css';
 import EduInfoForm from './components/EduInfoForm';
 import GenInfoForm from './components/GenInfoForm';
+import WorkExpForm from './components/WorkExpForm';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
 
       <GenInfoForm />
       <EduInfoForm />
-
+      <WorkExpForm />
+    
     </div>
   );
 }
