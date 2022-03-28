@@ -1,0 +1,22 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  background-color: rgb(125, 243, 204);
+  padding: 1rem;
+}
+
+.form-container {
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #97eaee;
+}
+
+label {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h2{
+  background-color: #ecd46a;
+}

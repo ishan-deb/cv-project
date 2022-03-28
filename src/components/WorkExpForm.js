@@ -1,6 +1,8 @@
+import '../styles/Forms.css'
+
 export default function WorkExpForm() {
   return (
-    <div>
+    <div className='form-container'>
       <h2>Work Experience</h2>
       <form action="" className="work-exp">
         <label>
@@ -17,7 +19,10 @@ export default function WorkExpForm() {
           <span>Date</span>
           <input type="date" id="date" />
         </label>
+
+        
       </form>
+      <button type="submit">Submit</button>
     </div>
   )
 }

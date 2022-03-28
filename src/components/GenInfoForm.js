@@ -1,8 +1,8 @@
-import '../styles/GenInfoForm.css'
+import '../styles/Forms.css'
 
 export default function GenInfoForm() {
   return (
-    <div>
+    <div className='form-container'>
       <h2>General Information</h2>
       <form action="" className='gen-info'>
         <label>
@@ -17,7 +17,10 @@ export default function GenInfoForm() {
           <span>Phone No.</span>
           <input type="number" name="phone-no" id="phone-no" />
         </label>
+
+        
       </form>
+      <button type="submit">Submit</button>
     </div>
   )
 }

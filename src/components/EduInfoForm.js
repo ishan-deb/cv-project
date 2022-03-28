@@ -1,6 +1,8 @@
+import '../styles/Forms.css'
+
 export default function EduInfoForm() {
   return (
-    <div>
+    <div className='form-container'>
       <h2>Educational Information</h2>
       <form action="" className="edu-info">
         <label>
@@ -20,9 +22,12 @@ export default function EduInfoForm() {
 
         <label>
           <span>Graduation Date</span>
-          <input type="number" id="grad-date" />
+          <input type="date" id="grad-date" />
         </label>
+
+        
       </form>
+      <button type="submit">Submit</button>
     </div>
   )
 }
