@@ -16,20 +16,31 @@ function App() {
       </header>
 
       <button onClick={() => {
-        setShowGenForm(true)
+        if (showGenForm) {
+          setShowGenForm(false)
+        } else {
+          setShowGenForm(true)
+        }
       }}> Gen Button</button>
-
       {showGenForm && <GenInfoForm />}
+
+
       <button onClick={() => {
-        setShowEduForm(true)
+        if (showEduForm) {
+          setShowEduForm(false)
+        } else {
+          setShowEduForm(true)
+        }
       }}> Edu Button</button>
-      
       {showEduForm && <EduInfoForm />}
 
       <button onClick={() => {
-        setShowWorkForm(true)
+        if (showWorkForm) {
+          setShowWorkForm(false)
+        } else {
+          setShowWorkForm(true)
+        }
       }}> Work Button</button>
-
       {showWorkForm && <WorkExpForm />}
     
     </div>

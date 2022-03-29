@@ -2,9 +2,6 @@ import '../styles/Forms.css'
 
 export default function EduInfoForm() {
   
-  const handleChange = e => {
-    console.log(e.target.value)
-  }
 
   return (
     <div className='form-container'>
@@ -12,7 +9,7 @@ export default function EduInfoForm() {
       <form aclassName="edu-info">
         <label>
           <span>Degree level</span>
-          <input type="select" id="degree-level" onChange={handleChange}/>
+          <input type="select" id="degree-level"/>
         </label>
 
         <label>
