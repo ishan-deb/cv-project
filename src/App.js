@@ -16,34 +16,9 @@ function App() {
           <h1>Build CV</h1>
         </header>
 
-        <div className="form-buttons">
-          <button onClick={() => {
-            if (showGenForm) {
-              setShowGenForm(false)
-            } else {
-              setShowGenForm(true)
-            }
-          }}> Gen Button</button>
-          {showGenForm && <GenInfoForm />}
-
-          <button onClick={() => {
-            if (showEduForm) {
-              setShowEduForm(false)
-            } else {
-              setShowEduForm(true)
-            }
-          }}> Edu Button</button>
-          {showEduForm && <EduInfoForm />}
-
-          <button onClick={() => {
-            if (showWorkForm) {
-              setShowWorkForm(false)
-            } else {
-              setShowWorkForm(true)
-            }
-          }}> Work Button</button>
-          {showWorkForm && <WorkExpForm />}
-        </div>
+        <GenInfoForm />
+        <EduInfoForm />
+        <WorkExpForm />
       </div>
         
       <div className="preview">

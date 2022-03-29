@@ -23,15 +23,3 @@ label, input {
 h2{
   background-color: #ecd46a;
 }
-
-.form-buttons {
-  display: flex;
-  flex-direction: column;
-  
-}
-
-.form-buttons button {
-  width: 5rem;
-  margin: 1rem auto;
-  
-}
