@@ -24,7 +24,14 @@ h2{
   background-color: #ecd46a;
 }
 
-form button {
-  margin-top: 0.5rem;
-  padding: 0.5rem;
+.form-buttons {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form-buttons button {
+  width: 5rem;
+  margin: 1rem auto;
+  
 }
