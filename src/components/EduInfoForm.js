@@ -1,13 +1,18 @@
 import '../styles/Forms.css'
 
 export default function EduInfoForm() {
+  
+  const handleChange = e => {
+    console.log(e.target.value)
+  }
+
   return (
     <div className='form-container'>
       <h2>Educational Information</h2>
-      <form action="" className="edu-info">
+      <form aclassName="edu-info">
         <label>
           <span>Degree level</span>
-          <input type="select" id="degree-level"/>
+          <input type="select" id="degree-level" onChange={handleChange}/>
         </label>
 
         <label>
@@ -24,10 +29,9 @@ export default function EduInfoForm() {
           <span>Graduation Date</span>
           <input type="date" id="grad-date" />
         </label>
-
-        
+        <button type="submit">Submit</button>
       </form>
-      <button type="submit">Submit</button>
+      
     </div>
   )
 }
