@@ -1,18 +1,10 @@
-header {
-  background-color: #97eaee;
-  width: 50%;
-  margin: 1rem auto;
-  padding: 0.5rem;
-}
-
 .App {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-/* .App button {
-  display: block;
-  margin: 1rem;
-  padding: 0.5rem;
-} */
+.App button {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+}

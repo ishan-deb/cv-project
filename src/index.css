@@ -13,10 +13,17 @@ body {
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  background-color: #97eaee;
+  width: 50%;
+  margin: 1rem auto;
+  padding: 0.5rem;
 }
